@@ -1,0 +1,40 @@
+{
+  "name": "edw-cli",
+  "version": "1.0.0",
+  "description": "cli demo of Edwin",
+  "main": "index.js",
+  "bin": {
+    "edw": "./bin/edw.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "edw-cli",
+    "edw",
+    "edwineo",
+    "脚手架"
+  ],
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": {
+    "name": "Edwin",
+    "email": "aboutcroon@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^3.0.1",
+    "axios": "^1.4.0",
+    "chalk": "^2.4.2",
+    "commander": "^11.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.6",
+    "ora": "^4.0.2",
+    "util": "^0.12.5"
+  }
+}
