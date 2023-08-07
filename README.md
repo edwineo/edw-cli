@@ -18,7 +18,7 @@
 ### 特性
 
 - 简单易用
-- 支持自定义模板增删
+- 支持通过模板列表及版本来创建所需模版
 
 ## 快速入门
 
@@ -26,12 +26,17 @@
 
 ```bash
 $ npm i edw-cli -g               # install cli
-$ edw create [yourProjectName]
 ```
 
 安装说明:
 
 默认的脚手架模板名称是vue-admin
+
+### 用法
+
+```bash
+$ edw create [yourProjectName]
+```
 
 ## 贡献者们
 - Edwin

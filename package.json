@@ -20,6 +20,10 @@
     "bin",
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:edwineo/edw-cli.git"
+  },
   "author": {
     "name": "Edwin",
     "email": "aboutcroon@gmail.com"
